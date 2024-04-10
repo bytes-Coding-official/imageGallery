@@ -1,0 +1,67 @@
+{
+    "Hunde":[
+        {
+            "title": "Warum es sinnvoll ist, sich einen Hund zuzulegen:",
+            "txt": "Fig1: Sitzender Hund",
+            "src": "img/dog_1.jpg"
+        },
+        {
+            "title": "Die gute Laune von Hunden ist ansteckend!",
+            "txt": "Fig2: Hund mit rausgestreckter Zunge",
+            "src": "img/dog_2.jpg"
+        },
+        {
+            "title": "Hunde sind majestätisch",
+            "txt": "Fig3: Majestätisch aussehender Hund",
+            "src": "img/dog_3.jpg"
+        },
+        {
+            "title": "Ein Hund kann dir bei deiner Steuerberatung helfen!",
+            "txt": "Fig4: Intelligenter Hund",
+            "src": "img/dog_4.jpg"
+        },
+        {
+            "title": "Die meisten Hunde vertragen sich mit anderen Haustieren",
+            "txt": "Fig5: Hund kuschelt mit einer Katze",
+            "src": "img/dog_5.jpg"
+        },
+        {
+            "title": "Hunde bringen dir tolle Geschenke",
+            "txt": "Fig6: Hund mit einem Stock",
+            "src": "img/dog_6.jpg"
+        }
+    ],
+    
+    "Katzen":[
+        {
+            "title": "Warum es sinnvoll ist, sich eine Katze zuzulegen:",
+            "txt": "Fig1: Niedliche Katze",
+            "src": "img/cat_1.jpg"
+        },
+        {
+            "title": "Katzen sind perfekte Motive für Fotos!",
+            "txt": "Fig2: Selfie Katze",
+            "src": "img/cat_2.jpg"
+        },
+        {
+            "title": "Katzen beglücken dich mit ihrem Gesang (z.B. wenn sie hungrig sind...)",
+            "txt": "Fig3: Miauende Katze",
+            "src": "img/cat_3.jpg"
+        },
+        {
+            "title": "Katzen stolpern häufig und bringen dich damit zum lachen",
+            "txt": "Fig4: Vom Sofa rutschende Katze",
+            "src": "img/cat_4.jpg"
+        },
+        {
+            "title": "Mit genug vertrauen können Katzen gestreichelt werden (flauschig)",
+            "txt": "Fig5: Zahme Katze",
+            "src": "img/cat_5.jpg"
+        },
+        {
+            "title": "Sie können und wollen überall schlafen (günstig & pflegeleicht)",
+            "txt": "Fig6: Katze die im Wäschekorb liegt",
+            "src": "img/cat_6.jpg"
+        }
+    ]
+}
