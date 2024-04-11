@@ -33,21 +33,26 @@ function showGallery(galleryName, data) {
 
 // Funktion zum rendern eines Bildes
 function renderImage() {
-    galleryContainer.innerHTML = '';
+    galleryContainer.style.opacity = '0'; // Set opacity to 0 before changing the image
+    setTimeout(() => {
+        galleryContainer.innerHTML = '';
 
-    const title = document.createElement('h1');
-    title.textContent = currentGallery[currentIndex].title;
-    galleryContainer.appendChild(title);
+        const title = document.createElement('h1');
+        title.textContent = currentGallery[currentIndex].title;
+        galleryContainer.appendChild(title);
 
-    const slide = document.createElement('img');
-    slide.src = currentGallery[currentIndex].src;
-    slide.alt = currentGallery[currentIndex].title;
-    slide.className = 'slide active';
-    galleryContainer.appendChild(slide);
+        const slide = document.createElement('img');
+        slide.src = currentGallery[currentIndex].src;
+        slide.alt = currentGallery[currentIndex].title;
+        slide.className = 'slide active';
+        galleryContainer.appendChild(slide);
 
-    const text = document.createElement('span');
-    text.textContent = currentGallery[currentIndex].txt;
-    galleryContainer.appendChild(text);
+        const text = document.createElement('span');
+        text.textContent = currentGallery[currentIndex].txt;
+        galleryContainer.appendChild(text);
+
+        galleryContainer.style.opacity = '1'; // Set opacity back to 1 after the image is rendered
+    }, 300); // Wait for 0.5 seconds before rendering the image
 }
 
 // Event Listener für Vor- und Zurück-Buttons
